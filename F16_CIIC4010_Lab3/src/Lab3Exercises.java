@@ -6,8 +6,8 @@ public class Lab3Exercises
 	{
 		JFrame axvielBenitez = new JFrame("Hello, world");
 		axvielBenitez.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		axvielBenitez.setLocation(540, 412);
-		axvielBenitez.setSize(200, 200);
+		axvielBenitez.setLocation(585, 290);
+		axvielBenitez.setSize(750, 500);
 		
 		MyPanelClass myPanel = new MyPanelClass();
 		axvielBenitez.getContentPane().add(myPanel);
