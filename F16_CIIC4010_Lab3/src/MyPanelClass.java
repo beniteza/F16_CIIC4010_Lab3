@@ -138,15 +138,15 @@ public class MyPanelClass extends JPanel
 
 		Polygon star = new Polygon();
 		star.addPoint(x1+x2/4, y1+y2*2/5);
-		star.addPoint(x1+x2*5/16, y1+y2*9/20);
+		star.addPoint(x1+x2*5/16, y1+y2*12/25); //Change here
 		star.addPoint(x1+x2*3/8, y1+y2/2);
 		star.addPoint(x1+x2*5/16, y1+y2*11/20);
 		star.addPoint(x1+x2*3/8, y1+y2*3/5);
 		star.addPoint(x1+x2/4, y1+y2*11/20);
 		star.addPoint(x1+x2/8, y1+y2*3/5);
-		star.addPoint(x1+x2*3/16, y1+y2*11/20);
+		star.addPoint(x1+x2*3/16, y1+y2*11/20); 
 		star.addPoint(x1+x2/8, y1+y2/2);
-		star.addPoint(x1+x2*3/16, y1+y2*9/20);
+		star.addPoint(x1+x2*3/16, y1+y2*12/25); //Change here
 		g.setColor(Color.WHITE);
 		g.fillPolygon(star);
 		
